@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100svh;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.card-container {
+  background-color: aliceblue;
+  color: #ececec;
+  display: flex;
+  max-width: 500px;
+  border-radius: 10px;
+}
+
+.details-container {
+  padding: 30px;
+}
+
+.card-details {
+  display: flex;
+  text-align: center;
+  gap: 40px;
+  margin-block: 20px;
+}
+
+.label,
+.occupation {
+  color: red;
+}
